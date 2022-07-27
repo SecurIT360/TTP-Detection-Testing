@@ -152,3 +152,6 @@ Set-WindowActive cmstp
 #Send the Enter key
 [System.Windows.Forms.SendKeys]::SendWait("{ENTER}")
 }
+
+# Remove the CMSTP.inf file and CMSTP folder on the desktop
+Cleanup
